@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background-color: bisque;
+    text-align: center;
+}
+
+.box{
+   display: inline-block;
+  
+}
+
+.sub-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+     padding: 20px 40px;
+   margin-top: 60px;
+}
+
+
+.grid-col{
+   grid-column: span 2;
+}
+
+.sub-box{
+   text-align: left;
+    background-color: white;
+    padding: 20px 30px;
+    height: 40vh;
+    border-radius: 5px;
+
+}
+
+.box1{
+    text-align: left;
+    background-color: hsl(179, 83%, 23%);
+    padding: 20px 30px;
+    height: 40vh;
+    width: 40vw;
+    border-radius: 5px;
+
+}
+
+.box2{
+    text-align: left;
+    padding: 20px 30px;
+    height: 40vh;
+    width: 40vw;
+    border-radius: 5px;
+    background-color:hsl(179, 62%, 43%);;
+}
+
+ul{
+    list-style: none;
+}
+
+.rate{
+    display: flex;
+    position: relative;
+    font-family: 'Karla';
+    font-weight: 400px;
+    margin-top: 20px;
+    color: white;
+  
+
+}
+
+.amount{
+    font-family: 'Karla';
+    font-weight: 400px;
+    color: white; 
+    font-size: 25px;
+}
+
+.month{
+    position: absolute;
+   left: 56px;
+   bottom: 5px;
+   font-family: 'Karla';
+   font-weight: 400px;
+   margin-top: 20px;
+   color:  rgb(233, 222, 222);
+}
+
+.join{
+    color: hsl(179, 62%, 43%);
+    font-family: 'Karla';
+    font-weight: 700px;
+     
+}
+
+h2{
+    color:  hsl(71, 73%, 54%);
+    margin-top: 20px;
+    font-family: 'Karla';
+    font-weight: 400px;
+     
+}
+
+.paragraph{
+    color:  hsl(218, 22%, 67%);
+    margin-top: 20px;
+    line-height: 30px;
+    font-family: 'Karla';
+    font-weight: 400px;
+    letter-spacing: 2px;
+}
+
+h3{
+    color: white;
+    margin-top: 25px ;
+    font-family: 'Karla';
+    font-weight: 700px;
+     
+}
+
+.para{
+    color:  rgb(233, 222, 222);
+    margin-bottom: 45px;
+    font-family: 'Karla';
+    font-weight: 400px;
+     
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    background-color:  hsl(71, 73%, 54%);
+    padding: 14px 20px;
+    border-radius: 5px;
+   display: inline-block;
+   text-align: center;
+     width: 85%;
+    font-family: 'Karla';
+    font-weight: 400px;
+   
+}
+
+.why{
+    margin-bottom: 10px;
+    font-family: 'Karla';
+    font-weight: 700px;
+     
+}
+
+li{
+    line-height: 20px;
+    margin-top: 5px;
+    color:  rgb(233, 222, 222);
+}
+
